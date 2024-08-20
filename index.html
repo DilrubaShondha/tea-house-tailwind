@@ -33,7 +33,7 @@
   </head>
 <body>
     <!-- banner starts -->
-     <div class="w-10/12 mx-auto flex mt-6">
+     <section class="w-10/12 mx-auto flex mt-6">
       <!-- banner text -->
         <div class="w-1/2 mt-6 ml-6">
           <h1 class="text-[#1C1C1C] text-5xl font-bold leading-tight mb-4">It's good <br>
@@ -42,13 +42,23 @@
             <button class="text xl font-bold text-white p-4 bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-lg">Explore More</button>
         </div>
         <!-- banner image -->
-         <div class="w-1/2 mt-12">
-          <img class="w-3/4 mx-auto border border-2 border-dashed border-gray" src="./images/banner.png" alt="">
+         <div class="relative w-1/2 mt-12">
+            <div>
+              <img class="w-5/6 mx-auto border-2 border-dashed border-gray" src="./images/banner.png" alt="">
+           </div>
+           <div class="absolute bg-white flex rounded-lg top-60 left-16">
+            <div class="ml-2 p-3 pt-7"><i class="fa-solid fa-star text-3xl text-[#FFC850]"></i></div>
+            <div>
+              <h1 class="text-3xl font-bold p-2">5.00</h1>
+              <p class="text-[#777777] font-semibold mb-4 mr-3">Trust Pilot Ratings</p>
+            </div>
+           </div>
          </div>
-     </div>
+
+     </section>
     <!-- banner ends -->
     <!-- product section starts -->
-     <div class="w-10/12 mx-auto mt-24 mb-20">
+     <section class="w-10/12 mx-auto mt-24 mb-20">
       <h1 class="text-center text-4xl font-bold leading-tight">Our Featured Products</h1>
       <p class="text-[#777777] text-lg font-medium text-center my-6 w-10/12 mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
       <!-- container starts -->
@@ -87,7 +97,7 @@
            </div>
        </div>
        <!-- container ends -->
-     </div>
+     </section>
     <!-- product section ends -->
     <!-- green tea section starts -->
      <section class="mb-20 mt-28 w-10/12 mx-auto">
@@ -125,7 +135,7 @@
      </section>
     <!-- green tea section ends -->
   <!-- news section starts -->
-  <div class="w-10/12 mx-auto mt-24 mb-20">
+  <section class="w-10/12 mx-auto mt-24 mb-20">
     <h1 class="text-center text-4xl font-bold leading-tight">News & Events</h1>
     <p class="text-[#777777] text-lg font-medium text-center my-6 w-10/12 mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
     <!-- container starts -->
@@ -162,7 +172,7 @@
        </div>
      </div>
      <!-- container ends -->
-   </div>
+   </section>
   <!-- news section ends -->
 </body>
 </html>
